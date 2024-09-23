@@ -3,7 +3,7 @@ package sixteam;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Exam_10828 {
+public class 스택 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Stack<Integer> stack = new Stack<>();

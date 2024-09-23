@@ -3,7 +3,7 @@ package sixteam;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Exam_1935 {
+public class 후위_표기식_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

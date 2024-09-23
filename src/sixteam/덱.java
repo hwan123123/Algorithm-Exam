@@ -4,7 +4,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class Exam_10866 {
+public class 덱 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Deque<Integer> deque = new LinkedList<>();

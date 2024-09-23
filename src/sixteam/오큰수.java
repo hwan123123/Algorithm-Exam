@@ -3,7 +3,7 @@ package sixteam;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Exam_17298 {
+public class 오큰수 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
@@ -35,6 +35,6 @@ public class Exam_17298 {
         for (int i = 0; i < N; i++) {
             sb.append(result[i]).append(" ");
         }
-        System.out.println(sb.toString());
+        System.out.println(sb);
     }
 }

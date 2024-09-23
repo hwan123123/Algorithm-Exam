@@ -2,7 +2,7 @@ package sixteam;
 
 import java.util.Scanner;
 
-public class Exam_9093 {
+public class 단어_뒤집기 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -3,7 +3,7 @@ package sixteam;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Exam_10799 {
+public class 쇠막대기 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
@@ -26,7 +26,8 @@ public class Exam_10799 {
                 }
             }
         }
-
+        // () (((()())(())())) (())
+        // 3 + 3 + 1 + 3 + 1 + 2 + 2 + 2
         System.out.println(count);
     }
 }

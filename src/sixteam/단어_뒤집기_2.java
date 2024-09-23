@@ -2,7 +2,7 @@ package sixteam;
 
 import java.util.Scanner;
 
-public class Exam_17413 {
+public class 단어_뒤집기_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
@@ -37,6 +37,6 @@ public class Exam_17413 {
         // 마지막 단어가 있을 경우 뒤집어서 결과에 추가
         result.append(word.reverse());
 
-        System.out.println(result.toString()); // 결과 출력
+        System.out.println(result); // 결과 출력
     }
 }

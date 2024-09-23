@@ -3,7 +3,7 @@ package sixteam;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Exam_1918 {
+public class 후위_표기식 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String infix = sc.nextLine(); // 중위 표기식 입력

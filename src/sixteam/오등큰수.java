@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class Exam_17299 {
+public class 오등큰수 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
