@@ -9,12 +9,8 @@ public class 진법_변환 {
         int b = sc.nextInt();
 
         // B진법 수 N을 10진법으로 변환
-        int result = convertToDecimal(n, b);
+        int result = Integer.parseInt(n, b);
 
         System.out.println(result);
-    }
-
-    private static int convertToDecimal(String n, int base) {
-        return Integer.parseInt(n, base);
     }
 }
