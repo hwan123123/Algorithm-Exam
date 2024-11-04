@@ -4,8 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// 백트래킹을 이용해 탐색할 때 O(21^n)의 시간 복잡도가 필요하며, 부분합의 조건을 확인할 때 O(n)의 시간 복잡도가 필요하기에
-// 전체 시간 복잡도는 O(21^n x n)
+// 백트래킹을 이용해 탐색할 때 O(21^n)의 시간 복잡도가 필요하며, 부분합의 조건을 확인할 때 O(n^2)의 시간 복잡도가 필요하기에
+// 전체 시간 복잡도는 O(21^n x n^2)
 public class Guess {
     static int n;
     static char[][] signMatrix;
